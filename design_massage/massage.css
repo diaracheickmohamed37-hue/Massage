@@ -135,7 +135,7 @@ main h2 {
   color: #f5f1e8;
 }
 .img2 {
-  background: url("./images_massage/Nos_massages/8.jpg") no-repeat center/cover;
+  background: url("../images_massage/Nos_massages/8.jpg") no-repeat center/cover;
   min-width: 25vw;
   min-height: 55vh;
   border: none;
@@ -149,7 +149,7 @@ main h2 {
   transform: translateY(-15px);
 }
 .img3 {
-  background: url(". /images_massage/Nos_massages/9.jpg") no-repeat center/cover;
+  background: url("../images_massage/Nos_massages/9.jpg") no-repeat center/cover;
   min-width: 25vw;
   min-height: 55vh;
   border: none;
@@ -163,7 +163,7 @@ main h2 {
   transform: translateY(-15px);
 }
 /* .img4 {
-  background: url(". /images_massage/Nos_massages/10.jpg")
+  background: url("../images_massage/Nos_massages/10.jpg")
     no-repeat center/cover;
   min-width: 25vw;
   min-height: 35vw;
