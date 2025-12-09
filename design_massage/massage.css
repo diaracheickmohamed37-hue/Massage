@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: url("/images_massage/header_img1.jpg") no-repeat center/cover;
+  color: #e8e3d6;
+  padding: 1rem;
+}
+.en-tête {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.logo {
+  color: #fdfbf7;
+  margin-top: -0.3rem;
+}
+/* nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(245, 241, 232, 0.85);
+  backdrop-filter: blur(15px);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+} */
+nav ul {
+  display: flex;
+  margin-top: 0.2rem;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 0.3rem 2rem;
+  z-index: 1000;
+}
+nav ul li {
+  margin-right: 1rem;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #f5f1e8;
+}
+nav ul li a:hover {
+  font-weight: bolder;
+  background-color: #d4a574;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  border: none;
+}
+input {
+  max-height: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  padding-left: 0.5rem;
+  margin-top: 0.3rem;
+}
+/* Pour la partie du hero de notre header  */
+.header_title {
+  margin-top: 10rem;
+  font-size: clamp(2rem, 6vw, 5rem);
+  padding-right: 10rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.sous_titre {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+}
+button {
+  margin: 1.3rem 3rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #c9a961;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(201, 169, 97, 0.3);
+}
+button:hover {
+  background-color: #d4a574;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(201, 169, 97, 0.5);
+}
+button a {
+  color: #fdfbf7;
+  text-decoration: none;
+  text-align: center;
+}
+.a_propos {
+  max-width: 20em;
+  margin-bottom: 6em;
+  margin-top: 4em;
+}
+.bouton {
+  background-color: #c9a961;
+  border: none;
+  border-radius: 10px;
+  color: #f5f1e8;
+  text-decoration: none;
+  padding: 0.3rem;
+  margin-left: 3rem;
+}
+/* Le main */
+main h2 {
+  margin: 2rem;
+}
+.ligne {
+  text-decoration: underline 0.3rem #d4a574;
+}
+.main_hero1 {
+  /* background-color: red; */
+  margin: 0 2rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.img1 {
+  background: url("/images_massage/Nos_massages/6.jpg") no-repeat center/cover;
+  min-width: 25vw;
+  min-height: 55vh;
+  border: none;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  cursor: pointer;
+}
+.img1:hover {
+  transition: transform 0.45s ease;
+  transform: scale(1) translateY(-15px);
+}
+.texte {
+  color: #f5f1e8;
+}
+.img2 {
+  background: url("/images_massage/Nos_massages/8.jpg") no-repeat center/cover;
+  min-width: 25vw;
+  min-height: 55vh;
+  border: none;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  cursor: pointer;
+}
+.img2:hover {
+  transition: all 0.45s ease;
+  transform: scale(1.1);
+  transform: translateY(-15px);
+}
+.img3 {
+  background: url("/images_massage/Nos_massages/9.jpg") no-repeat center/cover;
+  min-width: 25vw;
+  min-height: 55vh;
+  border: none;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  cursor: pointer;
+}
+.img3:hover {
+  transition: all 0.45s ease;
+  transform: scale(1.1);
+  transform: translateY(-15px);
+}
+/* .img4 {
+  background: url("/images_massage/Nos_massages/10.jpg")
+    no-repeat center/cover;
+  min-width: 25vw;
+  min-height: 35vw;
+  border: none;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+}
+.img4:hover {
+  transition: all 0.45s ease;
+  transform: scale(1.1);
+  transform: translateY(-15px);
+} */
+.main_hero2 {
+  display: flex;
+  margin-left: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+.espace_1 {
+  min-width: 15vw;
+  min-height: 15vh;
+  border-radius: 5px;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.texte_2 {
+  margin-right: 2rem;
+  padding: 1rem;
+  color: #8b7d6b;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 2em;
+}
+h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+}
+/* Les prix*/
+.sous_titre_2 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.texte_prix {
+  margin: 0 1rem;
+  margin-bottom: 2rem;
+  color: #8b7d6b;
+}
+.massage_type {
+  font-weight: bold;
+}
+.price {
+  color: #d4a574;
+}
+.tarif_1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+hr {
+  opacity: 0.4;
+  margin: 0.2rem 1rem;
+}
+.tarif_2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+.tarif_3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+.tarif_4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+/* Le footer */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #d4a574;
+  padding: 1rem 2rem;
+  color: #e8e3d6;
+  margin-top: 2rem;
+}
+.fin {
+  line-height: 2rem;
+}
+.fin a {
+  text-decoration: none;
+  color: #f5f1e8;
+  cursor: pointer;
+}
+h3 {
+  text-align: center;
+}
+/* Media Queries */
+/* Deskop */
+@media (min-width: 1024px) {
+  .main_hero1 {
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 40vw;
+  }
+  .main_hero2 {
+    flex-direction: row;
+  }
+  .espace_1 {
+    min-width: 10vw;
+    min-height: 35vw;
+    margin-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .texte_2 {
+    min-height: 35vw;
+    min-width: 17vw;
+    margin-bottom: 0;
+    /* height: 35vw; */
+  }
+}
+/* TABLETTE */
